@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/vem" android:icon="@drawable/m2"
+            android:title="Velocidade Escalar Média" />
+        <item android:id="@+id/aem" android:icon="@drawable/m2"
+            android:title="Aceleração Escalar Média" />
+    </group>
+
+    <item android:title="Movimento Retilíneo Uniforme">
+        <menu>
+            <item android:id="@+id/mru_postem" android:icon="@drawable/m1"
+                android:title="Posição x Tempo" />
+        </menu>
+    </item>
+    <item android:title="Movimento Uniformente Variado">
+        <menu>
+            <item android:id="@+id/muv_postem" android:icon="@drawable/m1"
+                android:title="Posição x Tempo" />
+            <item android:id="@+id/muv_veltem" android:icon="@drawable/m1"
+                android:title="Velocidade x Tempo" />
+            <item android:id="@+id/muv_veldes" android:icon="@drawable/m1"
+                android:title="Velocidade x Deslocamento" />
+            <item android:id="@+id/muv_vm" android:icon="@drawable/m1"
+                android:title="Velocidade Média" />
+            <item android:id="@+id/muv_lo" android:icon="@drawable/m3"
+                android:title="Lançamento Oblíquo" />
+        </menu>
+    </item>
+    <item android:title="Movimento Vertical">
+        <menu>
+            <item android:id="@+id/mv_postem" android:icon="@drawable/m4"
+                android:title="Posição x Tempo" />
+            <item android:id="@+id/mv_veltem" android:icon="@drawable/m4"
+                android:title="Velocidade x Tempo" />
+            <item android:id="@+id/mv_velpos" android:icon="@drawable/m4"
+                android:title="Velocidade x Posição" />
+        </menu>
+    </item>
+    <item android:title="Movimento Circular Uniforme">
+        <menu>
+            <item android:id="@+id/mcu_fp" android:icon="@drawable/m17"
+                android:title="Frequência e Período" />
+            <item android:id="@+id/mcu_velang" android:icon="@drawable/m17"
+                android:title="Velocidade Angular" />
+            <item android:id="@+id/mcu_vellin" android:icon="@drawable/m17"
+                android:title="Velocidade Linear" />
+        </menu>
+    </item>
+    <item android:title="Leis de Newton">
+        <menu>
+            <item android:id="@+id/ln_pl" android:icon="@drawable/m5"
+                android:title="1ª Lei de Newton" />
+            <item android:id="@+id/ln_sl" android:icon="@drawable/m5"
+                android:title="2ª Lei de Newton" />
+            <item android:id="@+id/ln_tl" android:icon="@drawable/m5"
+                android:title="3ª Lei de Newton" />
+            <item android:id="@+id/ln_fp" android:icon="@drawable/m6"
+                android:title="Força Peso" />
+        </menu>
+    </item>
+    <item android:title="Plano Inclinado">
+        <menu>
+            <item android:id="@+id/pi" android:icon="@drawable/m7"
+                android:title="Plano Inclinado" />
+        </menu>
+    </item>
+    <item android:title="Força Elástica">
+        <menu>
+            <item android:id="@+id/fe" android:icon="@drawable/m8"
+                android:title="Força Elástica" />
+            <item android:id="@+id/fe_ams" android:icon="@drawable/m8"
+                android:title="Molas em série" />
+            <item android:id="@+id/fe_amp" android:icon="@drawable/m8"
+                android:title="Molas em paralelo" />
+        </menu>
+    </item>
+    <item android:title="Força de Atrito">
+        <menu>
+            <item android:id="@+id/fa_em" android:icon="@drawable/m9"
+                android:title="Força de atrito estático máximo" />
+            <item android:id="@+id/fa_c" android:icon="@drawable/m9"
+                android:title="Força de atrito cinético" />
+        </menu>
+    </item>
+    <item android:title="Força Centrípeta">
+        <menu>
+            <item android:id="@+id/fc" android:icon="@drawable/m10"
+                android:title="Força Centrípeta" />
+        </menu>
+    </item>
+    <item android:title="Trabalho e Energia">
+    <menu>
+        <item android:id="@+id/te_tfc" android:icon="@drawable/m11"
+            android:title="Trabalho da força constante" />
+        <item android:id="@+id/te_tp" android:icon="@drawable/m11"
+            android:title="Trabalho do peso" />
+        <item android:id="@+id/te_tfe" android:icon="@drawable/m11"
+            android:title="Trabalho da força elástica" />
+        <item android:id="@+id/te_ec" android:icon="@drawable/m11"
+            android:title="Energia Cinética" />
+        <item android:id="@+id/te_tec" android:icon="@drawable/m11"
+            android:title="Teorema da energia cinética" />
+        <item android:id="@+id/te_epg" android:icon="@drawable/m11"
+            android:title="Energia Potencial Gravitacional" />
+        <item android:id="@+id/te_epe" android:icon="@drawable/m11"
+            android:title="Energia Potencial Elástica" />
+    </menu>
+</item>
+    <item android:title="Potência e Rendimento">
+        <menu>
+            <item android:id="@+id/pr_pm" android:icon="@drawable/m12"
+                android:title="Potência Mecânica" />
+            <item android:id="@+id/pr_r" android:icon="@drawable/m12"
+                android:title="Rendimento" />
+        </menu>
+    </item>
+    <item android:title="Gravitação Universal">
+        <menu>
+            <item android:id="@+id/gu_cg" android:icon="@drawable/internet"
+                android:title="Campo Gravitacional" />
+        </menu>
+    </item>
+    <item android:title="Dinâmica Impulsiva">
+        <menu>
+            <item android:id="@+id/di_qm" android:icon="@drawable/m14"
+                android:title="Quantidade de Movimento" />
+            <item android:id="@+id/di_if" android:icon="@drawable/m14"
+                android:title="Impulso de uma força" />
+            <item android:id="@+id/di_ti" android:icon="@drawable/m14"
+                android:title="Teorema do impulso" />
+        </menu>
+    </item>
+    <item android:title="Estática">
+        <menu>
+            <item android:id="@+id/e_epm" android:icon="@drawable/m15"
+                android:title="Equilíbrio de ponto material" />
+            <item android:id="@+id/e_mf" android:icon="@drawable/m15"
+                android:title="Momento de uma força" />
+        </menu>
+    </item>
+    <item android:title="Hidrostática">
+        <menu>
+            <item android:id="@+id/hs_d" android:icon="@drawable/m16"
+                android:title="Densidade" />
+            <item android:id="@+id/hs_p" android:icon="@drawable/m16"
+                android:title="Pressão" />
+            <item android:id="@+id/hs_e" android:icon="@drawable/m16"
+                android:title="Empuxo (Arquimedes)" />
+            <item android:id="@+id/hs_pap" android:icon="@drawable/m16"
+                android:title="Peso aparente" />
+        </menu>
+    </item>
+</menu>
